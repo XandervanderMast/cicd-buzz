@@ -1,0 +1,7 @@
+# Uit het werkboek: virtual environment en gecompileerde Python-bestanden niet in git
+venv
+*.pyc
+# Extra: andere venv-naam, caches van Python en pytest
+antenv
+__pycache__/
+.pytest_cache/
